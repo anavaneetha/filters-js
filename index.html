@@ -5,20 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     
-    <input type="text" name="search" id="search" placeholder="seach...">
+    <input type="text" NAME = "" id="myInput" placeholder="names..." onkeyup="searchFun()">
 
-    <table>
-        <thead>
-            <tr>
+    <table id="myTable">
+        
+            <tr class="header">
                 <th>Name</th>
                 <th>Age</th>
                 <th>Phone</th>
             </tr>
-        </thead>
-        <tbody>
+        
+        
             <tr>
                 <td>Ramesh Chandra</td>
                 <td>25</td>
@@ -35,7 +36,8 @@
                 <td>7994224536</td>
 
             </tr>
-        </tbody>
+    
     </table>
+    <script src="app.js"></script>
 </body>
 </html>
